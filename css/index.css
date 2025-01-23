@@ -1,8 +1,24 @@
 * {
-    margin: auto;
-    box-sizing: border-box;
+  margin: auto;
+  box-sizing: border-box;
 }
 
-header.header-index {
-    
+section.container {
+  div.edit-container {
+    height: 300px;
+    background-color: #3c5c67;
+  }
+}
+
+div.list {
+  background-color: #2e9acb;
+  text-align: center;
+  list-style: none; /* Remove os marcadores da lista */
+padding: 10px;
+  span.links {
+    font-size: 20px;
+   font-family: "Bebas Neue";
+    margin: 50px;
+    border-radius: 10px;
+  }
 }

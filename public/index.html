@@ -3,36 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Maravilhas do mundo</title>
+    <title>Maravilhas do Brasil</title>
     <link href="../css/index.css" rel="stylesheet" />
   </head>
   <body>
     <style>
-      .header-index {
-        background-color: #0000cd;
+      @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalam:wght@300;400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+      header.header-index {
+        background-color: #2e9acb;
         height: 100px;
         text-align: center;
         display: flex;
-        flex-direction: row;
-        font-size: 20px;
+        font-size: 30px;
       }
-     
-      .banner-index {
-      background-image: url(../img/catarata.jpg);
+      div.banner-index {
+        overflow: hidden;
         height: 400px;
+        background-image: url(../img/banner-Brasil.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px;
       }
-
+      h1.tittle-index {
+        font-family: "Bebas Neue";
+      }
     </style>
     <header class="header-index">
-      <!-- <img src="" alt="Banner" class="banner-header"> -->
-      <h1 class="tittle-index">Maravilhas do mundo</h1>
+      <h1 class="tittle-index">Maravilhas do Brasil</h1>
     </header>
-    <hr class="line" />
+    <div class="list">
+      <nav class="navigation">
+        <ul class="u-list">
+          <span class="links">Norte</span>
+          <span class="links">Sul</span>
+          <span class="links">Leste</span>
+          <span class="links">Oeste</span>
+          <span class="links">Nordeste</span>
+          <span class="links">Sudoeste</span>
+          <span class="links">Noroeste</span>
+          <span class="links">Sudeste</span>
+        </ul>
+      </nav>
+    </div>
+    <hr class="line" color="black" />
     <main class="bodymain">
       <div class="banner-index">
-  
+        <!-- <img src="../img/banner-Brasil.jpg" alt="" class="banner" /> -->
       </div>
-      <article class="bodyarticle"></article>
+      <hr class="line" color="black" />
+      <!-- <article class="bodyarticle"></article> -->
+      <!--serve para artigos-->
+      <section class="container">
+        <div class="edit-container"></div>
+      </section>
     </main>
   </body>
 </html>
