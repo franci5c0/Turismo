@@ -11,52 +11,79 @@
       @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalam:wght@300;400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
       header.header-index {
-        background-color: #2e9acb;
+        /* background-color: #2e9acb; */
+        background-image: url(../img/banner-Brasil-ceu.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px;
         height: 100px;
         text-align: center;
         display: flex;
         font-size: 30px;
       }
+
       div.banner-index {
         overflow: hidden;
-        height: 400px;
+        height: 450px;
         background-image: url(../img/banner-Brasil.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0px;
       }
+
       h1.tittle-index {
         font-family: "Bebas Neue";
+      }
+
+      section.container {
+        div.edit-container {
+          height: 300px;
+          /* background-color: #349186; */
+          background-image: url(../img/banner-Brasil-ceu.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+      }
+
+      div.list {
+        /* background-color: #2e9acb; */
+        background-image: url(../img/banner-Brasil-ceu.png);
+        background-repeat: no-repeat;
+        background-size: 1540px;
+        overflow: hidden;
+        text-align: center;
+        background-position: -170px;
+        list-style: none; /* Remove os marcadores da lista */
+        padding: 10px;
+        span.links {
+          font-size: 20px;
+          font-family: "Bebas Neue";
+          margin: 50px;
+          border-radius: 10px;
+        }
+      }
+
+      hr.line {
+        box-shadow: 2px 2px 5px 1px;
       }
     </style>
     <header class="header-index">
       <h1 class="tittle-index">Maravilhas do Brasil</h1>
     </header>
+
     <div class="list">
-      <nav class="navigation">
-        <ul class="u-list">
-          <span class="links">Norte</span>
-          <span class="links">Sul</span>
-          <span class="links">Leste</span>
-          <span class="links">Oeste</span>
-          <span class="links">Nordeste</span>
-          <span class="links">Sudoeste</span>
-          <span class="links">Noroeste</span>
-          <span class="links">Sudeste</span>
-        </ul>
-      </nav>
+      <span class="links">Pontos turísticos</span>
+      <span class="links">Estados</span>
+      <span class="links">Mapa</span>
+      <span class="links">História</span>
     </div>
+
     <hr class="line" color="black" />
+
     <main class="bodymain">
-      <div class="banner-index">
-        <!-- <img src="../img/banner-Brasil.jpg" alt="" class="banner" /> -->
-      </div>
-      <hr class="line" color="black" />
-      <!-- <article class="bodyarticle"></article> -->
-      <!--serve para artigos-->
-      <section class="container">
-        <div class="edit-container"></div>
-      </section>
+      <div class="banner-index"></div>
+
+      <footer class="footer-index"></footer>
     </main>
   </body>
 </html>
